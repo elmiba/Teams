@@ -1,7 +1,7 @@
 # Microsoft-Teams-For-RPi-ARMhf-ARM64-and-all-others
 This is a Chromium-based WebApp for Microsoft Teams designed to run on a Raspberry Pi 4 (4GB) with latest raspbian installed.
 
-For futher information on how to install, read the "BitteÖffnen.txt" file!
+For futher information on how to install, read the "BitteÖffnen.txt" file or check out the WIKI!
 
 When you want to run this script on any other distribution of Linux, then you have to cahnge in all Files exept the "Teams.sh" the paths to your desktop!
 

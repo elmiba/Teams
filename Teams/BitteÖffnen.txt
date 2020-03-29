@@ -1,0 +1,20 @@
+1.Bitte die folgende Zeile kopieren.
+
+sudo chmod a+x /home/pi/Desktop/Teams/Install.sh && sudo /home/pi/Desktop/Teams/Install.sh&
+
+2.Bitte dücken Sie die nun die Strg, die Alt und die "T" Taste
+  kurz gemeinsam. (Es sollte sich daraufhin ein Fenster mit 
+                   schwarzem Hintergrund öffnen! Falls nicht,
+                   Schritt 2 einfach wiederholen.)
+
+3.In dem sich gerade geöffneten Fenster die kopierte Zeile 
+  einfügen durch einen Rechtsklick.
+
+4. Drücken Sie nun die Eingabe/Enter-Taste.
+
+5. Bei einer erfolgreichen Installation sollten Sie nun ein
+   Dokument namens "Teams" auf Ihrem Desktop finden.
+
+6. Nun können Sie dieses Fenster schließen und um Teams
+   zu starten einfach auf das "Teams" Dokument mit einem 
+   Doppelklick öffnen!

@@ -1,6 +1,6 @@
 1.Bitte die folgende Zeile kopieren.
 
-sudo chmod a+x /home/pi/Desktop/Teams/Install.sh && sudo /home/pi/Desktop/Teams/Install.sh&
+sudo chmod a+x /home/pi/Desktop/Teams/Teams/Install.sh && sudo /home/pi/Desktop/Teams/Teams/Install.sh&
 
 2.Bitte dücken Sie die nun die Strg, die Alt und die "T" Taste
   kurz gemeinsam. (Es sollte sich daraufhin ein Fenster mit 

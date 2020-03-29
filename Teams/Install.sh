@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Elias Baumann 03/2020
+
 BLINK='\033[5;96m'
 RED='\033[0;31m'
 GREEN='\033[1;92m'

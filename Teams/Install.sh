@@ -27,14 +27,14 @@ progress-bar() { 																		#Ein Ladebalken der als Parameter Zeit in Sek
 }
 
 echo -e "${BLINK}Installation läuft Bitte warten...${NC}"
-progress-bar 20 																		#Die Zwanzig ist die Zeit bis Countdown fertig ist.
-sudo cp -f /home/pi/Desktop/Teams/Teams/msteams.png /usr/share/pixmaps/msteams.png& 	#Hier wird das PNG von dem Icon nach pixmaps kopiert
-sudo cp -f /home/pi/Desktop/Teams/Teams/Teams.desktop /home/pi/Desktop/Teams.desktop& 	#Die Desktopdatei wird kopiert
-sudo cp -fR /home/pi/Desktop/Teams/Teams /home/pi/Documents/Teams& 						#Der Ordner mit der dem Teams-skript wird kopiert
-sudo chmod a+x /home/pi/Desktop/Teams.desktop& 											#Die Desktopdatei wir ausführbar gemacht
-sudo chmod a+x /home/pi/Documents/Teams/Teams.sh& 										#Das Teams-skript wird ausführbar gemacht
-sleep 0.5 																				#Delay um vorzeitiges Löschen des Ordners zu verhindern (Ohne dem wird der Ordner vor dem abschließen der vorhergegangenen Befehle gelöscht!)
-sudo rm -r /home/pi/Desktop/Teams& 														#Hier wird der auf den Dektop kopierte Ordner gelöscht.
+progress-bar 20 																		                                          #Die Zwanzig ist die Zeit bis Countdown fertig ist.
+sudo cp -f /home/pi/Desktop/Teams/Teams/Teams/msteams.png /usr/share/pixmaps/msteams.png& 	  #Hier wird das PNG von dem Icon nach pixmaps kopiert
+sudo cp -f /home/pi/Desktop/Teams/Teams/Teams/Teams.desktop /home/pi/Desktop/Teams.desktop& 	#Die Desktopdatei wird kopiert
+sudo cp -fR /home/pi/Desktop/Teams/Teams/Teams /home/pi/Documents/Teams& 						          #Der Ordner mit der dem Teams-skript wird kopiert
+sudo chmod a+x /home/pi/Desktop/Teams/Teams.desktop& 											                    #Die Desktopdatei wir ausführbar gemacht
+sudo chmod a+x /home/pi/Documents/Teams/Teams/Teams.sh& 									                    #Das Teams-skript wird ausführbar gemacht
+sleep 0.5 																				                                            #Delay um vorzeitiges Löschen des Ordners zu verhindern (Ohne dem wird der Ordner vor dem abschließen der vorhergegangenen Befehle gelöscht!)
+sudo rm -r /home/pi/Desktop/Teams& 														                          #Hier wird der auf den Dektop kopierte Ordner gelöscht.
 echo -e "${CYAN}Der Installtionsprozess wurde${NC} ${GREEN}Abgeschlossen!${NC}"
 sleep 2
 clear

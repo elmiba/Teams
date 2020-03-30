@@ -35,7 +35,7 @@ sudo chmod a+x /home/pi/Desktop/Teams.desktop& 											                    #D
 sudo chmod a+x /home/pi/Documents/Teams/Teams/Teams.sh& 									                    #Das Teams-skript wird ausführbar gemacht
 sleep 0.5 																				                                            #Delay um vorzeitiges Löschen des Ordners zu verhindern (Ohne dem wird der Ordner vor dem abschließen der vorhergegangenen Befehle gelöscht!)
 sudo rm -r /home/pi/Desktop/Teams& 														                                #Hier wird der auf den Dektop kopierte Ordner gelöscht.
-echo -e "${CYAN}Der Installationsprozess wurde${NC} ${GREEN}Abgeschlossen!${NC}"
+echo -e "${CYAN}Der Installationsprozess wurde${NC} ${GREEN}abgeschlossen!${NC}"
 sleep 2
 clear
 exit

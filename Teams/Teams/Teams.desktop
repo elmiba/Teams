@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=1.0
-Exec=/home/pi/Documents/Teams/Teams.sh
+Exec=/home/pi/Documents/Teams/Teams/Teams.sh
 Icon=msteams
 Name=Teams
 #GenericName=Teams

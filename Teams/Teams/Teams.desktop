@@ -1,6 +1,6 @@
 [Desktop Entry]
-Version=1.0
-Exec=/home/pi/Documents/Teams/Teams/Teams.sh
+Version=1.1
+Exec=/home/pi/Documents/Teams/Teams.sh
 Icon=msteams
 Name=Teams
 #GenericName=Teams
@@ -9,4 +9,4 @@ Comment=Connect to Microsoft Teams
 Terminal=false
 Type=Application
 Categories=Office;Application
-
+StartupNotify=false

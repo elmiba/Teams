@@ -26,7 +26,7 @@ progress-bar() { 																		#Ein Ladebalken der als Parameter Zeit in Sek
   clean_line
 }
 
-echo -e "${BLINK}Installation läuft Bitte warten...${NC}"
+echo -e "${BLINK}Die Installation läuft! Bitte warten...${NC}"
 progress-bar 20 																		                                          #Die Zwanzig ist die Zeit bis Countdown fertig ist.
 sudo cp -f /home/pi/Desktop/Teams/Teams/Teams/msteams.png /usr/share/pixmaps/msteams.png& 	  #Hier wird das PNG von dem Icon nach pixmaps kopiert
 sudo cp -f /home/pi/Desktop/Teams/Teams/Teams/Teams.desktop /home/pi/Desktop/Teams.desktop& 	#Die Desktopdatei wird kopiert
@@ -35,7 +35,7 @@ sudo chmod a+x /home/pi/Desktop/Teams.desktop& 											                    #D
 sudo chmod a+x /home/pi/Documents/Teams/Teams/Teams.sh& 									                    #Das Teams-skript wird ausführbar gemacht
 sleep 0.5 																				                                            #Delay um vorzeitiges Löschen des Ordners zu verhindern (Ohne dem wird der Ordner vor dem abschließen der vorhergegangenen Befehle gelöscht!)
 sudo rm -r /home/pi/Desktop/Teams& 														                                #Hier wird der auf den Dektop kopierte Ordner gelöscht.
-echo -e "${CYAN}Der Installtionsprozess wurde${NC} ${GREEN}Abgeschlossen!${NC}"
+echo -e "${CYAN}Der Installationsprozess wurde${NC} ${GREEN}Abgeschlossen!${NC}"
 sleep 2
 clear
 exit
